@@ -21,6 +21,6 @@ jobs:
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.12.12
         with:
-          heroku_api_key: ${{ 5ba5baf7-91a7-4c4f-acf4-92239ad9cfac }}
+          heroku_api_key: ${{5ba5baf7-91a7-4c4f-acf4-92239ad9cfac}}
           heroku_app_name: 'react-github-actions'
           heroku_email: 'luisk.guerra89@gmail.com'
